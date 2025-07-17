@@ -1,0 +1,869 @@
+2025-04-19 11:41:29,460 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-19 11:41:29,469 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-19 11:41:30,226 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-19 11:41:30,228 - DEBUG - Attempting to acquire lock 2944222315680 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-04-19 11:41:30,231 - DEBUG - Lock 2944222315680 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-04-19 11:41:30,489 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 349
+2025-04-19 11:41:30,513 - DEBUG - Attempting to release lock 2944222315680 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-04-19 11:41:30,515 - DEBUG - Lock 2944222315680 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-04-19 11:41:31,176 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-04-19 11:41:31,191 - DEBUG - Attempting to acquire lock 2944225095808 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-04-19 11:41:31,192 - DEBUG - Lock 2944225095808 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-04-19 11:41:31,445 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 116
+2025-04-19 11:41:31,452 - DEBUG - Attempting to release lock 2944225095808 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-04-19 11:41:31,452 - DEBUG - Lock 2944225095808 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-04-19 11:41:31,758 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-04-19 11:41:31,765 - DEBUG - Attempting to acquire lock 2944222315680 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-04-19 11:41:31,765 - DEBUG - Lock 2944222315680 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-04-19 11:41:32,880 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 10454
+2025-04-19 11:41:32,902 - DEBUG - Attempting to release lock 2944222315680 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-04-19 11:41:32,902 - DEBUG - Lock 2944222315680 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-04-19 11:41:33,218 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-04-19 11:41:33,517 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-04-19 11:41:33,517 - DEBUG - Attempting to acquire lock 2944227104128 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-04-19 11:41:33,517 - DEBUG - Lock 2944227104128 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-04-19 11:41:34,074 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 53
+2025-04-19 11:41:34,074 - DEBUG - Attempting to release lock 2944227104128 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-04-19 11:41:34,074 - DEBUG - Lock 2944227104128 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-04-19 11:41:34,335 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-04-19 11:41:34,634 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-04-19 11:41:34,634 - DEBUG - Attempting to acquire lock 2944222324032 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-04-19 11:41:34,634 - DEBUG - Lock 2944222324032 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-04-19 11:41:34,966 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 612
+2025-04-19 11:41:34,966 - DEBUG - Attempting to release lock 2944222324032 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-04-19 11:41:34,966 - DEBUG - Lock 2944222324032 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-04-19 11:41:35,761 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors HTTP/1.1" 302 0
+2025-04-19 11:41:35,761 - DEBUG - Attempting to acquire lock 2944231741184 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-04-19 11:41:35,761 - DEBUG - Lock 2944231741184 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-04-19 11:41:35,769 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-19 11:41:36,019 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors HTTP/1.1" 302 1327
+2025-04-19 11:41:36,019 - DEBUG - Starting new HTTPS connection (1): cas-bridge.xethub.hf.co:443
+2025-04-19 11:41:36,460 - DEBUG - https://cas-bridge.xethub.hf.co:443 "GET /xet-bridge-us/621ffdc136468d709f180294/789fdf16a3e59f4fbfb6002967ecee539a198dadb5be74ca549aa7dc9b1b55fb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20250419%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250419T060032Z&X-Amz-Expires=3600&X-Amz-Signature=f77cfff772b795c4f6fb40deba23b7599f2b62e57aaff26557909b895b1ac61b&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&x-id=GetObject&Expires=1745046032&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NTA0NjAzMn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82MjFmZmRjMTM2NDY4ZDcwOWYxODAyOTQvNzg5ZmRmMTZhM2U1OWY0ZmJmYjYwMDI5NjdlY2VlNTM5YTE5OGRhZGI1YmU3NGNhNTQ5YWE3ZGM5YjFiNTVmYioifV19&Signature=ctlrBTGp~tSRKRI4TCL~VPaZqnM7zK2Ql5-CumNN7pmEyQaqr03HAOdimJSLzPuQjyEeaE0Yh3cu2wiBVDt33t8nwh9NIaGa2tPhpaz2UhkHYUcXsbtmdEXurJnZDTUIlJiWTrmuNvaSJUvv1FPupyENy~sAH465LKwr9m-2OoQUbOr~gwF4s8YdK2IPE~oPgZWIdUej6pofDJn0Ljo~MFivk0SMm1X3SVKJ6lsNUuQT82NBqhOADcefCkgv3LQYtwjp8~6IswH~OVXZez2LlCcA8HXXMHxlKRRFZINcc9kSbThBegSJyrUwzdtGcGgYQGLg3EbJs1TugqLiPeO2NQ__&Key-Pair-Id=K2L8F4GPSG1IFC HTTP/1.1" 200 90868376
+2025-04-19 11:41:55,073 - DEBUG - Attempting to release lock 2944231741184 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-04-19 11:41:55,074 - DEBUG - Lock 2944231741184 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-04-19 11:41:55,410 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-04-19 11:41:55,419 - DEBUG - Attempting to acquire lock 2944231977232 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-04-19 11:41:55,419 - DEBUG - Lock 2944231977232 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-04-19 11:41:55,662 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 350
+2025-04-19 11:41:55,680 - DEBUG - Attempting to release lock 2944231977232 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-04-19 11:41:55,681 - DEBUG - Lock 2944231977232 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-04-19 11:41:56,079 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt HTTP/1.1" 200 0
+2025-04-19 11:41:56,084 - DEBUG - Attempting to acquire lock 2944232484848 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-04-19 11:41:56,084 - DEBUG - Lock 2944232484848 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-04-19 11:41:56,399 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt HTTP/1.1" 200 231508
+2025-04-19 11:41:56,580 - DEBUG - Attempting to release lock 2944232484848 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-04-19 11:41:56,590 - DEBUG - Lock 2944232484848 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-04-19 11:41:56,884 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2025-04-19 11:41:56,886 - DEBUG - Attempting to acquire lock 2944228685680 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-04-19 11:41:56,888 - DEBUG - Lock 2944228685680 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-04-19 11:41:57,205 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json HTTP/1.1" 200 466247
+2025-04-19 11:41:57,476 - DEBUG - Attempting to release lock 2944228685680 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-04-19 11:41:57,476 - DEBUG - Lock 2944228685680 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-04-19 11:41:57,837 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2025-04-19 11:41:58,161 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2025-04-19 11:41:58,165 - DEBUG - Attempting to acquire lock 2944232484848 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-04-19 11:41:58,165 - DEBUG - Lock 2944232484848 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-04-19 11:41:58,484 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json HTTP/1.1" 200 112
+2025-04-19 11:41:58,488 - DEBUG - Attempting to release lock 2944232484848 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-04-19 11:41:58,488 - DEBUG - Lock 2944232484848 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-04-19 11:41:58,765 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+2025-04-19 11:41:59,124 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6761
+2025-04-19 11:41:59,135 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-19 11:41:59,762 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling/config.json HTTP/1.1" 200 0
+2025-04-19 11:41:59,764 - DEBUG - Attempting to acquire lock 2944233108688 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-04-19 11:41:59,764 - DEBUG - Lock 2944233108688 acquired on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-04-19 11:42:00,082 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling/config.json HTTP/1.1" 200 190
+2025-04-19 11:42:00,086 - DEBUG - Attempting to release lock 2944233108688 on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-04-19 11:42:00,086 - DEBUG - Lock 2944233108688 released on C:\Users\prave\.cache\huggingface\hub\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-04-19 11:42:00,370 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6761
+2025-04-19 11:42:03,140 - INFO - All components initialized successfully
+2025-04-19 11:42:03,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 11:42:03,166 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 11:43:04,855 - INFO - 127.0.0.1 - - [19/Apr/2025 11:43:04] "GET / HTTP/1.1" 200 -
+2025-04-19 11:43:04,957 - INFO - 127.0.0.1 - - [19/Apr/2025 11:43:04] "GET /images/logo.png HTTP/1.1" 200 -
+2025-04-19 11:43:05,579 - INFO - 127.0.0.1 - - [19/Apr/2025 11:43:05] "GET /images/back.png HTTP/1.1" 200 -
+2025-04-19 11:43:05,670 - INFO - 127.0.0.1 - - [19/Apr/2025 11:43:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-19 11:43:16,833 - INFO - 127.0.0.1 - - [19/Apr/2025 11:43:16] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-04-19 11:43:17,308 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-04-19 11:43:17,308 - INFO - package: mysql.connector.plugins
+2025-04-19 11:43:17,308 - INFO - plugin_name: caching_sha2_password
+2025-04-19 11:43:17,308 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-04-19 11:43:17,308 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-04-19 11:43:17,492 - WARNING - incorrect startxref pointer(1)
+2025-04-19 11:43:17,500 - ERROR - PDF extraction error: '/Root'
+2025-04-19 11:43:17,510 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-04-19 11:43:17,510 - WARNING - incorrect startxref pointer(1)
+2025-04-19 11:43:17,515 - ERROR - PDF extraction error: '/Root'
+2025-04-19 11:43:17,515 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-04-19 11:43:17,522 - INFO - 127.0.0.1 - - [19/Apr/2025 11:43:17] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-11 18:29:59,804 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 18:29:59,811 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 18:30:02,631 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:30:02,948 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 18:30:03,287 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 18:30:03,657 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:30:03,968 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 18:30:04,265 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 18:30:04,619 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 18:30:06,852 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 18:30:07,500 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 18:30:07,804 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 18:30:11,163 - INFO - All components initialized successfully
+2025-05-11 18:30:11,197 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:30:11,199 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:30:23,221 - INFO - 127.0.0.1 - - [11/May/2025 18:30:23] "GET / HTTP/1.1" 200 -
+2025-05-11 18:30:23,322 - INFO - 127.0.0.1 - - [11/May/2025 18:30:23] "GET /images/logo.png HTTP/1.1" 200 -
+2025-05-11 18:30:23,416 - INFO - 127.0.0.1 - - [11/May/2025 18:30:23] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-11 18:30:23,477 - INFO - 127.0.0.1 - - [11/May/2025 18:30:23] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-11 18:30:24,310 - INFO - 127.0.0.1 - - [11/May/2025 18:30:24] "GET /images/back.png HTTP/1.1" 200 -
+2025-05-11 18:30:24,320 - INFO - 127.0.0.1 - - [11/May/2025 18:30:24] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-11 18:30:24,397 - INFO - 127.0.0.1 - - [11/May/2025 18:30:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 18:30:24,410 - INFO - 127.0.0.1 - - [11/May/2025 18:30:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 18:30:31,196 - INFO - 127.0.0.1 - - [11/May/2025 18:30:31] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-11 18:30:31,277 - INFO - 127.0.0.1 - - [11/May/2025 18:30:31] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-11 18:30:31,382 - INFO - 127.0.0.1 - - [11/May/2025 18:30:31] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-11 18:30:44,348 - INFO - 127.0.0.1 - - [11/May/2025 18:30:44] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:30:45,958 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:30:45,962 - INFO - package: mysql.connector.plugins
+2025-05-11 18:30:45,962 - INFO - plugin_name: caching_sha2_password
+2025-05-11 18:30:45,966 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-11 18:30:45,966 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:30:46,088 - ERROR - Error: 1146 (42S02): Table 'qpgen.subjectpdfs' doesn't exist
+2025-05-11 18:30:46,098 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 143, in generate_questions
+    cursor.execute(
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\mysql\connector\cursor.py", line 615, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\mysql\connector\connection.py", line 1046, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\mysql\connector\connection.py", line 824, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'qpgen.subjectpdfs' doesn't exist
+
+2025-05-11 18:30:46,098 - INFO - 127.0.0.1 - - [11/May/2025 18:30:46] "[35m[1mPOST /generate_questions HTTP/1.1[0m" 500 -
+2025-05-11 18:31:12,680 - INFO - 127.0.0.1 - - [11/May/2025 18:31:12] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:31:14,169 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:31:14,169 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:31:14,181 - ERROR - Error: 1146 (42S02): Table 'qpgen.subjectpdfs' doesn't exist
+2025-05-11 18:31:14,181 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 143, in generate_questions
+    cursor.execute(
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\mysql\connector\cursor.py", line 615, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\mysql\connector\connection.py", line 1046, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\mysql\connector\connection.py", line 824, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'qpgen.subjectpdfs' doesn't exist
+
+2025-05-11 18:31:14,191 - INFO - 127.0.0.1 - - [11/May/2025 18:31:14] "[35m[1mPOST /generate_questions HTTP/1.1[0m" 500 -
+2025-05-11 18:36:07,936 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 18:36:07,946 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 18:36:08,958 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:36:09,366 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 18:36:09,746 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 18:36:10,141 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:36:10,809 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 18:36:12,675 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 18:36:13,095 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 18:36:14,382 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 18:36:14,862 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 18:36:15,350 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 18:36:18,824 - INFO - All components initialized successfully
+2025-05-11 18:36:18,856 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:36:18,856 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:38:02,996 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 18:38:02,996 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 18:38:06,777 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:38:13,481 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 18:38:13,927 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 18:38:14,908 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:38:15,761 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 18:38:16,722 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 18:38:17,280 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 18:38:18,770 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 18:38:19,250 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 18:38:20,312 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 18:38:24,380 - INFO - All components initialized successfully
+2025-05-11 18:38:24,429 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:38:24,434 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:41:54,227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 18:41:54,234 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 18:41:55,301 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:41:56,073 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 18:41:56,510 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 18:41:57,000 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:41:57,367 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 18:41:57,832 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 18:41:58,182 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 18:41:59,864 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 18:42:00,466 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 18:42:00,951 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 18:42:04,616 - INFO - All components initialized successfully
+2025-05-11 18:42:04,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:42:04,662 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:47:49,178 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 18:47:49,194 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 18:47:52,155 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:47:54,465 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 18:47:55,411 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 18:47:55,792 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:47:56,378 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 18:47:56,846 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 18:47:57,395 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 18:47:59,787 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 18:48:00,307 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 18:48:00,792 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 18:48:04,008 - INFO - All components initialized successfully
+2025-05-11 18:48:04,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:48:04,050 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:49:10,959 - INFO - 127.0.0.1 - - [11/May/2025 18:49:10] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-11 18:49:10,964 - INFO - 127.0.0.1 - - [11/May/2025 18:49:10] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-11 18:49:11,013 - INFO - 127.0.0.1 - - [11/May/2025 18:49:11] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-11 18:49:11,030 - INFO - 127.0.0.1 - - [11/May/2025 18:49:11] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-11 18:49:11,067 - INFO - 127.0.0.1 - - [11/May/2025 18:49:11] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-11 18:49:11,078 - INFO - 127.0.0.1 - - [11/May/2025 18:49:11] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-11 18:49:11,180 - INFO - 127.0.0.1 - - [11/May/2025 18:49:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 18:49:11,189 - INFO - 127.0.0.1 - - [11/May/2025 18:49:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 18:49:27,754 - INFO - 127.0.0.1 - - [11/May/2025 18:49:27] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:49:29,462 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:49:29,462 - INFO - package: mysql.connector.plugins
+2025-05-11 18:49:29,462 - INFO - plugin_name: caching_sha2_password
+2025-05-11 18:49:29,484 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-11 18:49:29,486 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:49:29,819 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:49:29,848 - ERROR - PDF extraction error: '/Root'
+2025-05-11 18:49:29,854 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-05-11 18:49:29,864 - INFO - 127.0.0.1 - - [11/May/2025 18:49:29] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-11 18:49:38,075 - INFO - 127.0.0.1 - - [11/May/2025 18:49:38] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:49:39,783 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:49:39,783 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:49:39,876 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:49:39,904 - ERROR - PDF extraction error: '/Root'
+2025-05-11 18:49:39,907 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-05-11 18:49:39,911 - INFO - 127.0.0.1 - - [11/May/2025 18:49:39] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-11 18:49:52,780 - INFO - 127.0.0.1 - - [11/May/2025 18:49:52] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:49:54,208 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:49:54,208 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:49:54,253 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:49:54,262 - ERROR - PDF extraction error: '/Root'
+2025-05-11 18:49:54,262 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-05-11 18:49:54,271 - INFO - 127.0.0.1 - - [11/May/2025 18:49:54] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-11 18:50:13,915 - INFO - 127.0.0.1 - - [11/May/2025 18:50:13] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:50:15,409 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:50:15,409 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:50:15,656 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:50:22,768 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:50:26,091 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:50:32,268 - INFO - 127.0.0.1 - - [11/May/2025 18:50:32] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-11 18:55:38,671 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 18:55:38,677 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 18:55:40,995 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:55:41,274 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 18:55:41,978 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 18:55:42,381 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 18:55:43,442 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 18:55:44,048 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 18:55:44,430 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 18:55:45,992 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 18:55:46,914 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 18:55:47,434 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 18:55:50,804 - INFO - All components initialized successfully
+2025-05-11 18:55:50,840 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:55:50,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:55:56,418 - INFO - 127.0.0.1 - - [11/May/2025 18:55:56] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-11 18:55:56,477 - INFO - 127.0.0.1 - - [11/May/2025 18:55:56] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-11 18:55:56,554 - INFO - 127.0.0.1 - - [11/May/2025 18:55:56] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-11 18:55:56,674 - INFO - 127.0.0.1 - - [11/May/2025 18:55:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 18:56:09,318 - INFO - 127.0.0.1 - - [11/May/2025 18:56:09] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 18:56:11,026 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 18:56:11,026 - INFO - package: mysql.connector.plugins
+2025-05-11 18:56:11,026 - INFO - plugin_name: caching_sha2_password
+2025-05-11 18:56:11,034 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-11 18:56:11,034 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 18:56:11,217 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:56:18,116 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:56:21,309 - WARNING - incorrect startxref pointer(1)
+2025-05-11 18:56:27,377 - INFO - 127.0.0.1 - - [11/May/2025 18:56:27] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-11 19:04:26,129 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 19:04:26,135 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 19:04:28,368 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 19:04:28,852 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 19:04:29,303 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 19:04:29,810 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 19:04:30,499 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 19:04:30,828 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 19:04:31,834 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 19:04:33,041 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 19:04:33,609 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 19:04:33,981 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 19:04:37,491 - INFO - All components initialized successfully
+2025-05-11 19:04:37,557 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 19:04:37,557 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 19:04:37,563 - INFO -  * Restarting with stat
+2025-05-11 19:04:52,723 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-11 19:04:52,730 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-11 19:04:54,608 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 19:04:55,143 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-11 19:04:55,581 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-11 19:04:56,399 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-11 19:04:56,814 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-11 19:04:57,627 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-11 19:04:58,081 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-11 19:05:00,291 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-11 19:05:01,313 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6806
+2025-05-11 19:05:01,776 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6806
+2025-05-11 19:05:04,991 - INFO - All components initialized successfully
+2025-05-11 19:05:05,023 - WARNING -  * Debugger is active!
+2025-05-11 19:05:05,028 - INFO -  * Debugger PIN: 863-194-985
+2025-05-11 19:05:05,123 - INFO - 127.0.0.1 - - [11/May/2025 19:05:05] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-11 19:05:05,163 - INFO - 127.0.0.1 - - [11/May/2025 19:05:05] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-11 19:05:05,202 - INFO - 127.0.0.1 - - [11/May/2025 19:05:05] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-11 19:05:17,440 - INFO - 127.0.0.1 - - [11/May/2025 19:05:17] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-11 19:05:19,079 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-11 19:05:19,079 - INFO - package: mysql.connector.plugins
+2025-05-11 19:05:19,079 - INFO - plugin_name: caching_sha2_password
+2025-05-11 19:05:19,082 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-11 19:05:19,082 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-11 19:05:19,224 - WARNING - incorrect startxref pointer(1)
+2025-05-11 19:05:19,259 - ERROR - PDF extraction error: '/Root'
+2025-05-11 19:05:19,269 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-05-11 19:05:19,271 - WARNING - incorrect startxref pointer(1)
+2025-05-11 19:05:19,294 - ERROR - PDF extraction error: '/Root'
+2025-05-11 19:05:19,295 - ERROR - Traceback (most recent call last):
+  File "C:\praveen project\QPGen-main\app.py", line 56, in extract_pdf_text
+    for page in pdf_reader.pages:
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2081, in __iter__
+    for i in range(len(self)):
+                   ^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\_reader.py", line 1101, in _flatten
+    catalog = self.trailer[TK.ROOT].get_object()
+              ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\prave\anaconda3\envs\QPGen\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 266, in __getitem__
+    return dict.__getitem__(self, key).get_object()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '/Root'
+
+2025-05-11 19:05:19,298 - INFO - 127.0.0.1 - - [11/May/2025 19:05:19] "[31m[1mPOST /generate_questions HTTP/1.1[0m" 400 -
+2025-05-21 20:08:43,214 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 20:08:43,223 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 20:08:45,405 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 20:08:45,798 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 20:08:46,638 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 20:08:47,038 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 20:08:47,932 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 20:08:48,870 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 20:08:50,013 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 20:08:52,263 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 20:08:52,872 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 20:08:53,793 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 20:08:57,199 - INFO - All components initialized successfully
+2025-05-21 20:08:57,273 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 20:08:57,273 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 20:08:57,278 - INFO -  * Restarting with stat
+2025-05-21 20:09:13,220 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 20:09:13,225 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 20:09:13,557 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 20:09:13,824 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 20:09:14,307 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 20:09:14,588 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 20:09:15,255 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 20:09:15,509 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 20:09:15,758 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 20:09:17,039 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 20:09:17,860 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 20:09:18,690 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 20:09:21,761 - INFO - All components initialized successfully
+2025-05-21 20:09:21,793 - WARNING -  * Debugger is active!
+2025-05-21 20:09:21,800 - INFO -  * Debugger PIN: 596-097-774
+2025-05-21 20:09:22,125 - INFO - 127.0.0.1 - - [21/May/2025 20:09:22] "GET / HTTP/1.1" 200 -
+2025-05-21 20:09:22,195 - INFO - 127.0.0.1 - - [21/May/2025 20:09:22] "GET /images/logo.png HTTP/1.1" 200 -
+2025-05-21 20:09:22,984 - INFO - 127.0.0.1 - - [21/May/2025 20:09:22] "GET /images/back.png HTTP/1.1" 200 -
+2025-05-21 20:09:23,075 - INFO - 127.0.0.1 - - [21/May/2025 20:09:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 20:09:33,922 - INFO - 127.0.0.1 - - [21/May/2025 20:09:33] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 20:09:35,509 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 20:09:35,509 - INFO - package: mysql.connector.plugins
+2025-05-21 20:09:35,509 - INFO - plugin_name: caching_sha2_password
+2025-05-21 20:09:35,514 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 20:09:35,514 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 20:10:06,157 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-05-21 20:10:06,167 - INFO - Loading faiss with AVX2 support.
+2025-05-21 20:10:06,339 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-21 20:11:05,051 - INFO - 127.0.0.1 - - [21/May/2025 20:11:05] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 20:12:31,491 - INFO - 127.0.0.1 - - [21/May/2025 20:12:31] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 20:12:33,155 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 20:12:33,160 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 20:14:11,190 - INFO - 127.0.0.1 - - [21/May/2025 20:14:11] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 21:35:15,653 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:35:15,661 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:35:17,121 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:35:17,501 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:35:17,820 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:35:18,144 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:35:18,464 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:35:18,781 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:35:19,109 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:35:20,690 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:35:21,738 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:35:22,105 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:35:26,030 - INFO - All components initialized successfully
+2025-05-21 21:35:26,082 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 21:35:26,082 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 21:35:26,086 - INFO -  * Restarting with stat
+2025-05-21 21:36:35,599 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:36:35,613 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:36:37,678 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:36:38,277 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:36:38,744 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:36:39,187 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:36:40,429 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:36:40,978 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:36:42,380 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:36:44,562 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:36:45,055 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:36:45,870 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:36:49,607 - INFO - All components initialized successfully
+2025-05-21 21:36:49,655 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 21:36:49,655 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 21:36:49,666 - INFO -  * Restarting with stat
+2025-05-21 21:37:04,851 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:37:04,857 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:37:06,418 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:37:07,167 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:37:08,497 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:37:09,117 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:37:09,457 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:37:10,038 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:37:10,557 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:37:12,188 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:37:12,910 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:37:13,406 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:37:16,892 - INFO - All components initialized successfully
+2025-05-21 21:37:16,929 - WARNING -  * Debugger is active!
+2025-05-21 21:37:16,939 - INFO -  * Debugger PIN: 596-097-774
+2025-05-21 21:39:25,439 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:39:25,446 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:39:25,987 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:39:26,279 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:39:26,635 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:39:26,945 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:39:27,266 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:39:27,550 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:39:27,898 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:39:29,030 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:39:29,509 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:39:29,815 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:39:33,316 - INFO - All components initialized successfully
+2025-05-21 21:39:33,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 21:39:33,371 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 21:39:33,378 - INFO -  * Restarting with stat
+2025-05-21 21:39:46,631 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:39:46,639 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:39:47,099 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:39:47,418 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:39:47,910 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:39:48,230 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:39:48,550 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:39:48,867 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:39:49,280 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:39:50,490 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:39:50,968 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:39:51,444 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:39:54,868 - INFO - All components initialized successfully
+2025-05-21 21:39:54,908 - WARNING -  * Debugger is active!
+2025-05-21 21:39:54,908 - INFO -  * Debugger PIN: 596-097-774
+2025-05-21 21:40:30,296 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,461 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,556 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,724 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,775 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,811 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,935 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 21:40:30,974 - INFO - 127.0.0.1 - - [21/May/2025 21:40:30] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 21:40:31,021 - INFO - 127.0.0.1 - - [21/May/2025 21:40:31] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 21:40:31,219 - INFO - 127.0.0.1 - - [21/May/2025 21:40:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 21:40:31,242 - INFO - 127.0.0.1 - - [21/May/2025 21:40:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 21:40:31,280 - INFO - 127.0.0.1 - - [21/May/2025 21:40:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 21:40:52,702 - INFO - 127.0.0.1 - - [21/May/2025 21:40:52] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 21:40:54,484 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 21:40:54,484 - INFO - package: mysql.connector.plugins
+2025-05-21 21:40:54,484 - INFO - plugin_name: caching_sha2_password
+2025-05-21 21:40:54,484 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 21:40:54,484 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 21:41:50,133 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-05-21 21:41:50,135 - INFO - Loading faiss with AVX2 support.
+2025-05-21 21:41:50,314 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-21 21:42:36,563 - INFO - 127.0.0.1 - - [21/May/2025 21:42:36] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 21:43:37,199 - INFO - 127.0.0.1 - - [21/May/2025 21:43:37] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 21:43:39,098 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 21:43:39,100 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 21:45:15,018 - INFO - 127.0.0.1 - - [21/May/2025 21:45:15] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 21:58:56,456 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:58:56,466 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:58:57,627 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:58:58,048 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:58:58,351 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:58:58,772 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:58:59,045 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:58:59,871 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:59:00,475 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:59:02,043 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:59:02,577 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:59:02,889 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:59:06,270 - INFO - All components initialized successfully
+2025-05-21 21:59:06,334 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 21:59:06,334 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 21:59:06,338 - INFO -  * Restarting with stat
+2025-05-21 21:59:21,001 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 21:59:21,012 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 21:59:22,605 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:59:22,928 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 21:59:23,282 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 21:59:23,720 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 21:59:24,148 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 21:59:24,671 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 21:59:24,996 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 21:59:26,252 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 21:59:26,752 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 21:59:27,318 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 21:59:30,392 - INFO - All components initialized successfully
+2025-05-21 21:59:30,423 - WARNING -  * Debugger is active!
+2025-05-21 21:59:30,436 - INFO -  * Debugger PIN: 596-097-774
+2025-05-21 22:00:15,049 - INFO - 127.0.0.1 - - [21/May/2025 22:00:15] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-21 22:00:15,081 - INFO - 127.0.0.1 - - [21/May/2025 22:00:15] "[36mGET /images/logo.png HTTP/1.1[0m" 304 -
+2025-05-21 22:00:15,233 - INFO - 127.0.0.1 - - [21/May/2025 22:00:15] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 22:00:15,328 - INFO - 127.0.0.1 - - [21/May/2025 22:00:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 22:00:32,384 - INFO - 127.0.0.1 - - [21/May/2025 22:00:32] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:00:34,008 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:00:34,008 - INFO - package: mysql.connector.plugins
+2025-05-21 22:00:34,008 - INFO - plugin_name: caching_sha2_password
+2025-05-21 22:00:34,022 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 22:00:34,022 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:01:04,069 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-05-21 22:01:04,069 - INFO - Loading faiss with AVX2 support.
+2025-05-21 22:01:04,240 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-21 22:02:41,661 - INFO - 127.0.0.1 - - [21/May/2025 22:02:41] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:04:04,859 - INFO - 127.0.0.1 - - [21/May/2025 22:04:04] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:04:06,742 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:04:06,750 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:04:52,329 - INFO - 127.0.0.1 - - [21/May/2025 22:04:52] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:15:23,781 - INFO - 127.0.0.1 - - [21/May/2025 22:15:23] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:15:25,509 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:15:25,509 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:19:01,669 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 22:19:01,674 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 22:19:03,647 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:19:03,946 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 22:19:13,997 - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2025-05-21 22:19:34,157 - DEBUG - Starting new HTTPS connection (3): huggingface.co:443
+2025-05-21 22:19:34,164 - DEBUG - Starting new HTTPS connection (4): huggingface.co:443
+2025-05-21 22:19:34,172 - DEBUG - Starting new HTTPS connection (5): huggingface.co:443
+2025-05-21 22:19:35,247 - DEBUG - Starting new HTTPS connection (6): huggingface.co:443
+2025-05-21 22:19:35,382 - DEBUG - Starting new HTTPS connection (7): huggingface.co:443
+2025-05-21 22:19:35,389 - DEBUG - Starting new HTTPS connection (8): huggingface.co:443
+2025-05-21 22:19:39,357 - INFO - All components initialized successfully
+2025-05-21 22:19:39,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 22:19:39,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 22:19:39,415 - INFO -  * Restarting with stat
+2025-05-21 22:19:55,811 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 22:19:55,817 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 22:19:56,541 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:19:56,936 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 22:19:57,256 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 22:19:57,756 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:19:58,268 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 22:19:58,678 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 22:19:58,988 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 22:20:00,314 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 22:20:00,928 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 22:20:01,445 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 22:20:05,160 - INFO - All components initialized successfully
+2025-05-21 22:20:05,198 - WARNING -  * Debugger is active!
+2025-05-21 22:20:05,207 - INFO -  * Debugger PIN: 596-097-774
+2025-05-21 22:20:05,525 - INFO - 127.0.0.1 - - [21/May/2025 22:20:05] "GET / HTTP/1.1" 200 -
+2025-05-21 22:20:05,608 - INFO - 127.0.0.1 - - [21/May/2025 22:20:05] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 22:20:05,704 - INFO - 127.0.0.1 - - [21/May/2025 22:20:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 22:20:43,365 - INFO - 127.0.0.1 - - [21/May/2025 22:20:43] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:20:45,097 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:20:45,097 - INFO - package: mysql.connector.plugins
+2025-05-21 22:20:45,097 - INFO - plugin_name: caching_sha2_password
+2025-05-21 22:20:45,102 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 22:20:45,103 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:20:45,193 - INFO - 127.0.0.1 - - [21/May/2025 22:20:45] "[33mPOST /generate_questions HTTP/1.1[0m" 404 -
+2025-05-21 22:37:48,004 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 22:37:48,004 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 22:37:48,996 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:37:49,416 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 22:37:50,244 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 22:37:50,524 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:37:54,952 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 22:37:55,325 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 22:37:55,632 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 22:37:56,941 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 22:37:57,401 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 22:37:57,725 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 22:38:01,256 - INFO - All components initialized successfully
+2025-05-21 22:38:01,308 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 22:38:01,308 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 22:38:01,312 - INFO -  * Restarting with stat
+2025-05-21 22:38:16,059 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-21 22:38:16,063 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-21 22:38:18,358 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:38:18,679 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-21 22:38:18,935 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-21 22:38:19,310 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-21 22:38:19,610 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-21 22:38:19,962 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-21 22:38:20,283 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-21 22:38:21,401 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-21 22:38:21,885 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-21 22:38:22,211 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-21 22:38:25,410 - INFO - All components initialized successfully
+2025-05-21 22:38:25,438 - WARNING -  * Debugger is active!
+2025-05-21 22:38:25,446 - INFO -  * Debugger PIN: 596-097-774
+2025-05-21 22:38:33,807 - INFO - 127.0.0.1 - - [21/May/2025 22:38:33] "GET / HTTP/1.1" 200 -
+2025-05-21 22:38:33,894 - INFO - 127.0.0.1 - - [21/May/2025 22:38:33] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 22:38:50,719 - INFO - 127.0.0.1 - - [21/May/2025 22:38:50] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:38:52,459 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:38:52,459 - INFO - package: mysql.connector.plugins
+2025-05-21 22:38:52,459 - INFO - plugin_name: caching_sha2_password
+2025-05-21 22:38:52,471 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 22:38:52,475 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:38:52,506 - INFO - 127.0.0.1 - - [21/May/2025 22:38:52] "[33mPOST /generate_questions HTTP/1.1[0m" 404 -
+2025-05-21 22:39:48,599 - INFO - 127.0.0.1 - - [21/May/2025 22:39:48] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:39:50,096 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:39:50,096 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:39:50,119 - INFO - 127.0.0.1 - - [21/May/2025 22:39:50] "[33mPOST /generate_questions HTTP/1.1[0m" 404 -
+2025-05-21 22:41:28,219 - INFO - 127.0.0.1 - - [21/May/2025 22:41:28] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:41:29,686 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:41:29,686 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:41:29,716 - INFO - 127.0.0.1 - - [21/May/2025 22:41:29] "[33mPOST /generate_questions HTTP/1.1[0m" 404 -
+2025-05-21 22:53:04,877 - INFO - 127.0.0.1 - - [21/May/2025 22:53:04] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-21 22:53:05,006 - INFO - 127.0.0.1 - - [21/May/2025 22:53:05] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 22:53:15,259 - INFO - 127.0.0.1 - - [21/May/2025 22:53:15] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 22:53:16,883 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 22:53:16,889 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 22:53:36,745 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-05-21 22:53:36,747 - INFO - Loading faiss with AVX2 support.
+2025-05-21 22:53:36,924 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-21 22:54:33,933 - INFO - 127.0.0.1 - - [21/May/2025 22:54:33] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-21 23:00:46,638 - INFO - 127.0.0.1 - - [21/May/2025 23:00:46] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-21 23:00:46,721 - INFO - 127.0.0.1 - - [21/May/2025 23:00:46] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-21 23:01:02,447 - INFO - 127.0.0.1 - - [21/May/2025 23:01:02] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-21 23:01:04,372 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-21 23:01:04,372 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-21 23:03:12,086 - INFO - 127.0.0.1 - - [21/May/2025 23:03:12] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-23 11:01:18,170 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-23 11:01:18,181 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-23 11:01:20,054 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-23 11:01:20,432 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-23 11:01:20,951 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-23 11:01:21,776 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-23 11:01:22,439 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-23 11:01:23,309 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-23 11:01:23,653 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-23 11:01:25,426 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-23 11:01:26,351 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-23 11:01:26,829 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-23 11:01:30,561 - INFO - All components initialized successfully
+2025-05-23 11:01:30,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-23 11:01:30,616 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 11:01:30,623 - INFO -  * Restarting with stat
+2025-05-23 11:01:53,996 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-23 11:01:54,015 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-23 11:01:56,691 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-23 11:01:57,499 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-23 11:01:57,955 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-23 11:01:58,379 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-23 11:01:58,666 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-23 11:01:58,955 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-23 11:01:59,291 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-23 11:02:01,047 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-23 11:02:01,597 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-23 11:02:01,983 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-23 11:02:05,374 - INFO - All components initialized successfully
+2025-05-23 11:02:05,416 - WARNING -  * Debugger is active!
+2025-05-23 11:02:05,439 - INFO -  * Debugger PIN: 596-097-774
+2025-05-23 11:02:05,699 - INFO - 127.0.0.1 - - [23/May/2025 11:02:05] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-23 11:02:05,853 - INFO - 127.0.0.1 - - [23/May/2025 11:02:05] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-23 11:02:05,957 - INFO - 127.0.0.1 - - [23/May/2025 11:02:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-23 11:02:43,240 - INFO - 127.0.0.1 - - [23/May/2025 11:02:43] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-23 11:02:45,742 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-23 11:02:45,742 - INFO - package: mysql.connector.plugins
+2025-05-23 11:02:45,742 - INFO - plugin_name: caching_sha2_password
+2025-05-23 11:02:45,758 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-23 11:02:45,758 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-23 11:03:15,521 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-05-23 11:03:15,525 - INFO - Loading faiss with AVX2 support.
+2025-05-23 11:03:16,013 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-23 11:04:53,580 - INFO - 127.0.0.1 - - [23/May/2025 11:04:53] "POST /generate_questions HTTP/1.1" 200 -
+2025-05-23 11:23:23,469 - INFO -  * Detected change in 'C:\\praveen project\\QPGen-main\\app.py', reloading
+2025-05-23 11:23:29,424 - INFO -  * Restarting with stat
+2025-05-23 11:23:54,170 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-23 11:23:54,181 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-23 11:23:56,455 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-23 11:23:56,849 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-23 11:23:57,113 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-23 11:23:57,879 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-23 11:23:58,670 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-23 11:23:59,851 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-23 11:24:03,708 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-23 11:24:05,610 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-23 11:24:06,063 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6808
+2025-05-23 11:24:06,363 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6808
+2025-05-23 11:24:11,004 - INFO - All components initialized successfully
+2025-05-23 11:24:11,041 - WARNING -  * Debugger is active!
+2025-05-23 11:24:11,041 - INFO -  * Debugger PIN: 596-097-774
+2025-05-23 12:50:56,576 - INFO - 127.0.0.1 - - [23/May/2025 12:50:56] "[36mGET / HTTP/1.1[0m" 304 -
+2025-05-23 12:50:56,753 - INFO - 127.0.0.1 - - [23/May/2025 12:50:56] "[36mGET /images/back.png HTTP/1.1[0m" 304 -
+2025-05-23 12:50:56,879 - INFO - 127.0.0.1 - - [23/May/2025 12:50:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-23 12:51:30,921 - INFO - 127.0.0.1 - - [23/May/2025 12:51:30] "OPTIONS /generate_questions HTTP/1.1" 200 -
+2025-05-23 12:51:33,620 - DEBUG - # _do_auth(): self._auth_plugin: 
+2025-05-23 12:51:33,620 - INFO - package: mysql.connector.plugins
+2025-05-23 12:51:33,620 - INFO - plugin_name: caching_sha2_password
+2025-05-23 12:51:33,663 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-23 12:51:33,670 - DEBUG - new_auth_plugin: caching_sha2_password
+2025-05-23 12:52:17,364 - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-05-23 12:52:17,372 - INFO - Loading faiss with AVX2 support.
+2025-05-23 12:52:17,740 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-23 12:54:41,887 - INFO - 127.0.0.1 - - [23/May/2025 12:54:41] "POST /generate_questions HTTP/1.1" 200 -

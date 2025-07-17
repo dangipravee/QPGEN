@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshaya Institute of Technology</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("images/back.png");
+            background-size: cover; 
+            background-position: center center;
+            color: #333;
+            align-items: center;
+        }
+        
+        header {
+            background-color: rgba(18, 80, 142, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            height:60px;
+            position: relative;
+        }
+        header img {
+            width: 80px;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 3rem auto;
+            padding: 2rem;
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .main {
+            display: flex;
+            max-width: 1200px;
+            margin: 2rem auto;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            gap: 5px;
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+
+        .left-column {
+            flex: 0 0 35%;
+            padding: 2rem;
+            border-right: 1px solid #2a2828;
+            line-height: 1.5;
+            height: 480px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .right-column {
+            flex: 1;
+            padding: 2rem;
+            height: 480px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-subject-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+        }
+
+        .pdf-upload-container {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .pdf-upload-container.active {
+            display: block;
+        }
+
+        .custom-checkbox {
+            margin: 10px 0;
+        }
+
+        .file-upload {
+            margin-top: 10px;
+        }
+
+        .file-info {
+            margin-top: 10px;
+            padding: 8px;
+            background-color: #e8f4f8;
+            border-radius: 4px;
+            display: none;
+        }
+
+        form, .controls {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 0.5rem;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        input, select, button, textarea {
+            padding: 0.8rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: #6f6dea;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        button:hover {
+            background-color: #10191e;
+        }
+
+        #generatedQuestions {
+            margin: 2rem auto;
+            padding: 2rem;
+            width: 75%;
+            border: 1px solid #ccc;
+            color: black;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.6);
+            text-align: center;
+            display: none;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        #generatedQuestions h2 {
+            margin: 0 0 1rem;
+        }
+
+        textarea {
+            resize: vertical;
+            width: 90%;
+            font-size: 1rem;
+            background-color: #f8f8f8;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 1rem;
+        }
+
+        .actions button {
+            margin-right: 1rem;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            height: 50px;
+            padding: 1rem;
+            background-color: rgba(18, 80, 142, 0.8);
+            text-align: center;
+        }
+
+        img {
+            border-radius: 15px;
+            margin-left: 20px;
+        }
+
+        ul {
+            padding: 8px;
+        }
+
+        .titeling {
+            color: #5de0ec;
+            padding: 20px;
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            main {
+                width: 100%;
+                margin-left: 0;
+            }
+            #generatedQuestions {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Akshaya Institute of Technology</h1>
+    </header>
+
+    <div class="titeling">QPGen: Artificial Intelligence -Powered Question Paper Generator</div>
+    
+    <div class="main">
+        <div class="left-column">
+            <h2>Subjects</h2>
+            <ul>
+                <li>Artificial Intelligence and Machine Learning(BCS601)</li>
+                <li>Database Management System(BCS602)</li>
+                <li>Data Communication(BCS613B)</li>
+                <li>Environmental Studies(BAG654A)</li>
+                <li>Software Engineering and Project Management (BCSL606)</li>
+            </ul>
+
+            <div class="custom-subject-section">
+                <h3>Custom Subject Upload</h3>
+                <div class="custom-checkbox">
+                    <input type="checkbox" id="useCustomSubject" name="useCustomSubject">
+                    <label for="useCustomSubject">Upload custom subject material</label>
+                </div>
+                <div class="pdf-upload-container" id="pdfUploadSection">
+                    <input type="file" id="customPdf" accept=".pdf" class="file-upload">
+                    <div class="file-info" id="fileInfo">
+                        <p>Selected file: <span id="fileName"></span></p>
+                    </div>
+                    <input type="button" value="submit" style="color:#923535; background-color: rgba(187, 219, 252, 0.8);">
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-column">
+            <form id="questionForm">
+                <label for="subjectCode">Subject Code:</label>
+                <select id="subjectCode" name="subjectCode" required>
+                    <option value="">Select Subject Code</option>
+                    <option value="BCS601">Artificial Intelligence and Machine Learning</option>
+                    <option value="BCS602">Database Management System </option>
+                    <option value="BCS613B">Data Communication</option>
+                    <option value="BAG654A">Environmental Studies</option>
+                    <option value="BCSL606">Software Engineering and Project Management </option>
+                </select>
+
+                <label for="questionType">Question Type:</label>
+                <select id="questionType" name="questionType" required>
+                    <option value="">Select Question Type</option>
+                    <option value="Descriptive">Descriptive</option>
+                    <option value="Singlesentence">Singlesentence</option>
+                    <option value="Multiple_choice_questions">MCQ</option>
+                </select>
+
+                <label for="numModules">Module:</label>
+                <select id="numModules" name="numModules" required>
+                    <option value="">Select the Module</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="difficultyLevel">Difficulty Level:</label>
+                <select id="difficultyLevel" name="difficultyLevel" required>
+                    <option value="">Select Difficulty Level</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+
+                <button type="submit">Generate Questions</button>
+            </form>
+        </div>  
+    </div>
+
+    <div id="generatedQuestions">
+        <h2>Generated Questions:</h2>
+        <textarea id="questions" rows="10"></textarea>
+        <div class="actions">
+            <button id="regenerateBtn">Regenerate Questions</button>
+            <button id="editBtn">Edit</button>
+            <button id="downloadBtn">Download as PDF</button>
+        </div>
+    </div>
+
+    <script>
+        // Custom subject handling
+        document.getElementById('useCustomSubject').addEventListener('change', function() {
+            const uploadSection = document.getElementById('pdfUploadSection');
+            const subjectCodeSelect = document.getElementById('subjectCode');
+            
+            if (this.checked) {
+                uploadSection.classList.add('active');
+                subjectCodeSelect.value = 'CUSTOM';
+                subjectCodeSelect.disabled = true;
+            } else {
+                uploadSection.classList.remove('active');
+                subjectCodeSelect.value = '';
+                subjectCodeSelect.disabled = false;
+            }
+        });
+
+        document.getElementById('customPdf').addEventListener('change', function(e) {
+            const fileInfo = document.getElementById('fileInfo');
+            const fileName = document.getElementById('fileName');
+            
+            if (this.files[0]) {
+                fileName.textContent = this.files[0].name;
+                fileInfo.style.display = 'block';
+            } else {
+                fileInfo.style.display = 'none';
+            }
+        });
+
+        // Form submission
+        document.getElementById('questionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = new FormData();
+            const useCustomSubject = document.getElementById('useCustomSubject').checked;
+
+            if (useCustomSubject) {
+                const pdfFile = document.getElementById('customPdf').files[0];
+                if (!pdfFile) {
+                    alert('Please upload a PDF file for custom subject');
+                    return;
+                }
+                formData.append('pdfFile', pdfFile);
+                formData.append('isCustomSubject', 'true');
+            }
+
+            formData.append('subjectCode', document.getElementById('subjectCode').value);
+            formData.append('questionType', document.getElementById('questionType').value);
+            formData.append('numModules', document.getElementById('numModules').value);
+            formData.append('difficultyLevel', document.getElementById('difficultyLevel').value);
+
+            const fetchOptions = {
+                method: 'POST',
+                headers: useCustomSubject ? {} : { 'Content-Type': 'application/json' },
+                body: useCustomSubject ? formData : JSON.stringify(Object.fromEntries(formData))
+            };
+
+            fetch('http://localhost:5000/generate_questions', fetchOptions)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.questions) {
+                        document.getElementById('questions').value = data.questions.join('\n');
+                        document.getElementById('generatedQuestions').style.display = 'block';
+                    } else {
+                        alert('Failed to generate questions: ' + (data.error || 'Unknown reason'));
+                    }
+                })
+                .catch(error => {
+                    alert('An error occurred: ' + error.message);
+                });
+        });
+
+        // Regenerate button handling
+        document.getElementById('regenerateBtn').addEventListener('click', function() {
+            document.getElementById('questions').value = '';
+            document.getElementById('questionForm').dispatchEvent(new Event('submit'));
+        });
+
+        // Download PDF functionality
+        document.getElementById('downloadBtn').addEventListener('click', function () {
+            const { jsPDF } = window.jspdf;
+            const questionsText = document.getElementById('questions').value.trim();
+
+            if (!questionsText) {
+                alert('No questions available to download.');
+                return;
+            }
+
+            const doc = new jsPDF();
+            const margin = 10;
+            const pageWidth = doc.internal.pageSize.width - 2 * margin;
+            const pageHeight = doc.internal.pageSize.height - 2 * margin;
+            const textLines = doc.splitTextToSize(questionsText, pageWidth);
+            let cursorY = margin;
+
+            textLines.forEach(line => {
+                if (cursorY + 10 > pageHeight) {
+                    doc.addPage();
+                    cursorY = margin;
+                }
+                doc.text(line, margin, cursorY);
+                cursorY += 10;
+            });
+
+            doc.save('Generated_Questions.pdf');
+        });
+
+        // Edit functionality
+        document.getElementById('editBtn').addEventListener('click', function () {
+            const questionsTextarea = document.getElementById('questions');
+            if (questionsTextarea.readOnly) {
+                questionsTextarea.readOnly = false;
+                questionsTextarea.style.backgroundColor = "#fff";
+                this.textContent = 'Save';
+            } else {
+                questionsTextarea.readOnly = true;
+                questionsTextarea.style.backgroundColor = "#f8f8f8";
+                this.textContent = 'Edit';
+                alert('Changes saved!');
+            }
+        });
+    </script>
+
+    <footer>
+        <p>&copy; 2025 Akshaya Institute of Technology. All rights reserved.</p>
+    </footer>
+</body>
+</html>
